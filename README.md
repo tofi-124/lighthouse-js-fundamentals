@@ -1,2 +1,2 @@
 # lighthouse-js-fundamentals
-Git-it Challenge!
+Challenges from lighthouse prep work!
