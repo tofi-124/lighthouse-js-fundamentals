@@ -1,4 +1,4 @@
-const sayHello  = function (name) {
+function sayHello(name) {
   console.log("Hello, " + name);
 }
 
@@ -6,23 +6,21 @@ sayHello("Caliban");
 sayHello("Miranda");
 sayHello("Ferdinand");
 
-const sayHelloToConsole  = function (name) {
+function sayHelloToConsole(name) {
   console.log("Hello, " + name);
 }
-sayHelloToConsole('John'); 
+sayHelloToConsole("John");
 
-const returnSayHello  = function (name) {
+function returnSayHello(name) {
   return "Hello, " + name;
 }
-const greeting = returnSayHello('John');
 
-
-const returnSayHello  = function (name) {
+function returnSayHello(name) {
   return "Hello, " + name;
 }
-const greeting = returnSayHello('John');
+const greeting = returnSayHello("John");
 console.log(greeting);
 
-const isEven  = function (num) {
+const isEven = function (num) {
   return num % 2 === 0;
-}
+};
